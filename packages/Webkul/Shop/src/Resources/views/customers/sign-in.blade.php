@@ -23,12 +23,14 @@
                 class="m-[0_auto_20px_auto]"
                 aria-label="Bagisto "
             >
+            <!--
                 <img
                     src="{{ bagisto_asset('images/logo.svg') }}"
                     alt="Bagisto "
                     width="131"
                     height="29"
                 >
+            -->
             </a>
         </div>
 
