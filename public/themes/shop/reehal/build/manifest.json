@@ -1,13 +1,8 @@
 {
   "src/Resources/assets/css/app.css": {
-    "file": "assets/app-a2acfbdc.css",
+    "file": "assets/app-de506919.css",
     "isEntry": true,
     "src": "src/Resources/assets/css/app.css"
-  },
-  "src/Resources/assets/css/main.css": {
-    "file": "assets/main-41c43d0d.css",
-    "isEntry": true,
-    "src": "src/Resources/assets/css/main.css"
   },
   "src/Resources/assets/fonts/velicon.woff": {
     "file": "assets/velicon-2b79b97c.woff",
@@ -89,7 +84,7 @@
     "css": [
       "assets/app-05f8acf7.css"
     ],
-    "file": "assets/app-de68670d.js",
+    "file": "assets/app-aa4b60e6.js",
     "isEntry": true,
     "src": "src/Resources/assets/js/app.js"
   }

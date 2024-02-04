@@ -18,6 +18,86 @@
     ]); 
 @endphp
 
+<footer class="tp-footer-area bg-white" :class="{ 'tp-footer-style-2 tp-footer-style-primary tp-footer-style-6': primary_style, 'tp-footer-style-2': style_2, 'tp-footer-style-2 tp-footer-style-3': style_3 }" :data-bg-color="`${style_2 ? 'footer-bg-white' : style_3 ? 'footer-bg-white' : 'footer-bg-grey'}`">
+    <div class="tp-footer-top pt-14 md:pt-28 pb-10 md:pb-16 lg:pb-24">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-16">
+                <div class="tp-footer-widget footer-col-1">
+                    <div class="tp-footer-widget-content">
+                        <div class="tp-footer-logo">
+                            <img src="/img/logo/logo.svg" alt="logo">
+                        </div>
+                        <p class="tp-footer-desc">Luxary Perfume Shop</p>
+                        <div class="tp-footer-social">
+                            <!-- social links -->
+                            <footer-social-links/>
+                            <!-- social links -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the above structure for each column -->
+                <div class="tp-footer-widget footer-col-2">
+                    <h4 class="tp-footer-widget-title">My Account</h4>
+                    <div class="tp-footer-widget-content">
+                        <ul>
+                            <li><a href="#">Track Orders</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-footer-widget footer-col-3">
+                    <h4 class="tp-footer-widget-title">Information</h4>
+                    <div class="tp-footer-widget-content">
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Latest News</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-footer-widget footer-col-4">
+                    <h4 class="tp-footer-widget-title">Talk To Us</h4>
+                    <div class="tp-footer-widget-content">
+                        <div class="tp-footer-talk mb-4">
+                            <span>Got Questions? Call us</span>
+                            <h4><a href="tel:670-413-90-762">+670 413 90 762</a></h4>
+                        </div>
+                        <!-- footer contact start -->
+                        <footer-contact/>
+                        <!-- footer contact end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom area start -->
+    <div class="tp-footer-bottom bg-white py-4 md:py-6">
+        <div class="container mx-auto">
+            <div class="tp-footer-bottom-wrapper">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center">
+                    <div class="tp-footer-copyright col-span-2 md:col-span-1">
+                        <p>@lang('shop::app.components.layouts.footer.footer-text')</p>
+                    </div>
+                    <div class="tp-footer-payment col-span-2 md:col-span-1 text-center md:text-right">
+                        <p>
+                            <img src="/img/footer/footer-pay.png" alt="pay-img" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom area end -->
+</footer>
+
+<!--
 <footer class="mt-[36px] bg-lightOrange  max-sm:mt-[30px]">
     @if ($customization)
         <div class="flex gap-x-[25px] gap-y-[30px] justify-between p-[60px] max-1060:flex-wrap max-1060:flex-col-reverse max-sm:px-[15px]">
@@ -90,11 +170,9 @@
         </div>
     @endif
 
-    <div class="flex justify-between  px-[60px] py-[13px] bg-[#F1EADF]">
-        <p class="text-[14px] text-[#4D4D4D]">
-            @lang('shop::app.components.layouts.footer.footer-text')
-        </p>
-    </div>
+    
+
 </footer>
+-->
 
 {!! view_render_event('bagisto.shop.layout.footer.after') !!}
