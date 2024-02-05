@@ -1,5 +1,81 @@
 {!! view_render_event('bagisto.shop.layout.features.before') !!}
 
+@if (request()->is('/'))
+<section class="pt-10 md:pt-20 lg:pt-24 xl:pt-32">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+      <div class="md:pr-8 lg:pr-16 xl:pr-20 mb-6 md:mb-0">
+        <div class="mb-6">
+          <span class="text-xs md:text-sm font-semibold tracking-wider uppercase text-gray-600">Product Collection</span>
+          <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Discover our products</h3>
+        </div>
+      </div>
+      <div class="md:text-right">
+        <div class="mb-6 md:mb-0">
+          <a href="/shop" class="inline-block py-2 px-6 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-700">
+            Shop All Products
+            <!-- SVG Arrow Icon -->
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Category Item 1 -->
+      <div class="col-span-1 md:col-span-1 lg:col-span-1">
+        <div class="group relative overflow-hidden rounded-lg">
+          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('http://127.0.0.1:8000/storage/theme/10/1.webp')"></div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white">Parent Category 1</a></h3>
+            <p class="text-sm md:text-base">X Products</p>
+            <a href="#" class="inline-block mt-4 py-1 px-4 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-700">View Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Category Item 1 -->
+
+      <!-- Category Item 2 -->
+      <div class="col-span-1 md:col-span-1 lg:col-span-1">
+        <div class="group relative overflow-hidden rounded-lg">
+          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('http://127.0.0.1:8000/storage/theme/10/1.webp')"></div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white">Parent Category 2</a></h3>
+            <p class="text-sm md:text-base">Y Products</p>
+            <a href="#" class="inline-block mt-4 py-1 px-4 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-700">View Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Category Item 2 -->
+
+      <!-- Category Item 3 -->
+      <div class="col-span-1 md:col-span-1 lg:col-span-1">
+        <div class="group relative overflow-hidden rounded-lg">
+          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('http://127.0.0.1:8000/storage/theme/10/1.webp')"></div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white">Parent Category 3</a></h3>
+            <p class="text-sm md:text-base">Z Products</p>
+            <a href="#" class="inline-block mt-4 py-1 px-4 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-700">View Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Category Item 3 -->
+
+      <!-- Category Item 4 -->
+      <div class="col-span-1 md:col-span-1 lg:col-span-1">
+        <div class="group relative overflow-hidden rounded-lg">
+          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('http://127.0.0.1:8000/storage/theme/10/1.webp')"></div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="hover:text-blue-500">Parent Category 4</a></h3>
+            <p class="text-sm md:text-base">W Products</p>
+            <a href="#" class="inline-block mt-4 py-1 px-4 bg-blue-600 text-white font-semibold rounded-lg transition duration-300 hover:bg-blue-700">View Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Category Item 4 -->
+    </div>
+  </div>
+</section>
+@endif
+
 <section class="tp-testimonial-area pt-16 md:pt-28 pb-16 md:pb-32">
     <div class="container mx-auto">
         <div class="text-center mb-10">
