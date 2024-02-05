@@ -12,9 +12,7 @@
         >
             <img
                 src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('') }}"
-                width="131"
-                height="29"
-                alt="Bagisto"
+                class="w-[80px] h-[40px] object-contain"
             >
         </a>
 
@@ -245,6 +243,9 @@
                 </div>
             </div>
         </div>
+        <a class="inline-block pb-[25px] uppercase">Gifts</a>
+        <a class="inline-block pb-[25px] uppercase">Corporate</a>
+        <a class="inline-block pb-[25px] uppercase">Our Story</a>
     </script>
 
     <script type="module">
