@@ -243,7 +243,7 @@
                 </div>
             </div>
         </div>
-        <a class="inline-block uppercase">Gifts</a>
+        <a class="inline-block pb-[25px] uppercase">Gifts</a>
         <a class="inline-block pb-[25px] uppercase">Corporate</a>
         <a class="inline-block pb-[25px] uppercase">Our Story</a>
     </script>
