@@ -243,8 +243,8 @@
                 </div>
             </div>
         </div>
-        <a class="inline-block pb-[25px] uppercase">Corporate</a>
-        <a class="inline-block pb-[25px] uppercase">Our Story</a>
+        <a href="/page/corporate" class="inline-block pb-[25px] uppercase">Corporate</a>
+        <a href="/page/our-story" class="inline-block pb-[25px] uppercase">Our Story</a>
     </script>
 
     <script type="module">
