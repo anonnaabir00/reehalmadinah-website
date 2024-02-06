@@ -15,7 +15,12 @@
     </x-slot>
 
     {{-- Page Content --}}
-    <div class="container mt-[30px] px-[60px] max-lg:px-[30px]">
-        {!! Blade::render($page->html_content) !!}
+    <div class="">
+    <div class="p-28 text-center font-bold text-4xl" style="background-image: url('https://reehalmadinah.com/storage/theme/1/HZ3fFPXkI6KnLhP0Zn0AFtL2onJu4osMjvX4tkCm.webp');">
+        {{ $page->page_title }}
+    </div>
+    <div class="p-12 container mt-[30px] px-[60px] max-lg:px-[30px] shadow-xl">
+    {!! Blade::render($page->html_content) !!}
+    </div>
     </div>
 </x-shop::layouts>
