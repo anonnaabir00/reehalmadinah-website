@@ -138,7 +138,7 @@
                         <button
                             v-if="! isLoading"
                             class="block w-max py-[11px] px-[43px] bg-navyBlue text-white text-base font-medium rounded-[18px] text-center cursor-pointer max-sm:text-[14px] max-sm:px-[25px] max-sm:mb-[40px]"
-                            @click="placeOrder"
+                            @click="showAlert"
                         >
                             @lang('shop::app.checkout.onepage.summary.place-order')    
                         </button>
@@ -170,12 +170,14 @@
                             @lang('shop::app.checkout.onepage.summary.processing')
                         </button>
 
-                        <button
+                       <!--<button
                     class="block w-max py-[11px] px-[43px] bg-navyBlue text-white text-base font-medium rounded-[18px] text-center cursor-pointer max-sm:text-[14px] max-sm:px-[25px] max-sm:mb-[40px]"
                     @click="showAlert"
                     >
                     Pay with Stripe
                     </button>
+                    -->
+
                     </div>
                 </template>
             </div>
@@ -213,8 +215,11 @@
                         .catch(error => console.log(error));
                 },
                 getValue(){
-                    const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
-                    console.log(grandTotal);
+                    // const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
+                    console.log(Number(this.cart.grand_total));
+                    const items = JSON.parse(JSON.stringify(this.cart.items)); // Convert to JSON string and then parse back to object
+                    const itemsString = items.map(item => item.name).join(', ');
+                    console.log(namesString);
                 },
                 showAlert() {
                 Swal.fire({
@@ -230,7 +235,9 @@
                         Swal.showLoading();
                         try {
                             // Get the value of grand_total element
-                            const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
+                            const grandTotal = Number(this.cart.grand_total);
+                            const items = JSON.parse(JSON.stringify(this.cart.items)); // Convert to JSON string and then parse back to object
+                            const itemsString = items.map(item => item.name).join(', ');
 
                             // Step 1: Create a new product on Stripe
                             const productResponse = await fetch('https://api.stripe.com/v1/products', {
@@ -240,7 +247,7 @@
                                     'Content-Type': 'application/x-www-form-urlencoded',
                                 },
                                 body: new URLSearchParams({
-                                    'name': 'Your Product Name',
+                                    'name': itemsString,
                                     // Add any other relevant product data here
                                 }),
                             });
@@ -260,7 +267,7 @@
                                 },
                                 body: new URLSearchParams({
                                     'line_items[0][price_data][product]': productData.id,
-                                    'line_items[0][price_data][currency]': 'usd',
+                                    'line_items[0][price_data][currency]': 'gbp',
                                     'line_items[0][price_data][unit_amount]': grandTotal * 100,
                                     'line_items[0][quantity]': 1,
                                     'mode': 'payment',
@@ -275,8 +282,12 @@
 
                             const sessionData = await sessionResponse.json();
 
+                            this.$axios.post('{{ route('shop.checkout.onepage.orders.store') }}')
+                            .then(response => {
+                                window.location.href = sessionData.url;
+                            })
+
                             // Step 3: Redirect customer to sessionData.url to complete the payment
-                            window.location.href = sessionData.url;
                         } catch (error) {
                             Swal.fire({
                                 title: "Error!",
