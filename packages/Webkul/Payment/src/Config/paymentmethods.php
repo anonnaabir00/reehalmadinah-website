@@ -11,8 +11,8 @@ return [
 
     'moneytransfer'   => [
         'code'        => 'moneytransfer',
-        'title'       => 'Money Transfer',
-        'description' => 'Money Transfer',
+        'title'       => 'Stripe',
+        'description' => 'Pay using Stripe',
         'class'       => 'Webkul\Payment\Payment\MoneyTransfer',
         'active'      => true,
         'sort'        => 2,
