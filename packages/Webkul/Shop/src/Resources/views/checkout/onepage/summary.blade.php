@@ -10,6 +10,8 @@
 {!! view_render_event('bagisto.shop.checkout.cart.summary.after') !!}
 
 @pushOnce('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://js.stripe.com/v3/"></script>
     <script type="text/x-template" id="v-cart-summary-template">
         <template v-if="isCartLoading">
             <!-- onepage Summary Shimmer Effect -->
@@ -117,6 +119,7 @@
 
                         <p 
                             class="text-[18px] font-semibold"
+                            id="grand_total"
                             v-text="cart.base_grand_total"
                         >
                         </p>
@@ -166,6 +169,13 @@
 
                             @lang('shop::app.checkout.onepage.summary.processing')
                         </button>
+
+                        <button
+                    class="block w-max py-[11px] px-[43px] bg-navyBlue text-white text-base font-medium rounded-[18px] text-center cursor-pointer max-sm:text-[14px] max-sm:px-[25px] max-sm:mb-[40px]"
+                    @click="showAlert"
+                    >
+                    Pay with Stripe
+                    </button>
                     </div>
                 </template>
             </div>
@@ -202,6 +212,156 @@
                         })
                         .catch(error => console.log(error));
                 },
+                getValue(){
+                    const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
+                    console.log(grandTotal);
+                },
+                showAlert() {
+                Swal.fire({
+                    title: "Loading Payment Page...",
+                    text: "Please wait while we loading the payment page",
+                    icon: "info",
+                    showCancelButton: false,
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    allowEnterKey: false,
+                    onBeforeOpen: async () => {
+                        Swal.showLoading();
+                        try {
+                            // Get the value of grand_total element
+                            const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
+
+                            // Step 1: Create a new product on Stripe
+                            const productResponse = await fetch('https://api.stripe.com/v1/products', {
+                                method: 'POST',
+                                headers: {
+                                    'Authorization': 'Bearer sk_test_51Oc778GNOVYK3qTpGHkYW3JtKJgdv8BiOfegmYXQVJZiuFDJcKKFXkBhXEATl0c8K8mwoBC6YADm4WD30Q8Rxx5c00uwSOQ7M5',
+                                    'Content-Type': 'application/x-www-form-urlencoded',
+                                },
+                                body: new URLSearchParams({
+                                    'name': 'Your Product Name',
+                                    // Add any other relevant product data here
+                                }),
+                            });
+
+                            if (!productResponse.ok) {
+                                throw new Error('Failed to create product');
+                            }
+
+                            const productData = await productResponse.json();
+
+                            // Step 2: Create a checkout session
+                            const sessionResponse = await fetch('https://api.stripe.com/v1/checkout/sessions', {
+                                method: 'POST',
+                                headers: {
+                                    'Authorization': 'Bearer sk_test_51Oc778GNOVYK3qTpGHkYW3JtKJgdv8BiOfegmYXQVJZiuFDJcKKFXkBhXEATl0c8K8mwoBC6YADm4WD30Q8Rxx5c00uwSOQ7M5',
+                                    'Content-Type': 'application/x-www-form-urlencoded',
+                                },
+                                body: new URLSearchParams({
+                                    'line_items[0][price_data][product]': productData.id,
+                                    'line_items[0][price_data][currency]': 'usd',
+                                    'line_items[0][price_data][unit_amount]': grandTotal * 100,
+                                    'line_items[0][quantity]': 1,
+                                    'mode': 'payment',
+                                    'success_url': '{{ route('shop.checkout.onepage.success') }}',
+                                    'cancel_url': 'https://example.com/failure',
+                                }),
+                            });
+
+                            if (!sessionResponse.ok) {
+                                throw new Error('Failed to create checkout session');
+                            }
+
+                            const sessionData = await sessionResponse.json();
+
+                            // Step 3: Redirect customer to sessionData.url to complete the payment
+                            window.location.href = sessionData.url;
+                        } catch (error) {
+                            Swal.fire({
+                                title: "Error!",
+                                text: "Failed to create checkout session.",
+                                icon: "error",
+                            });
+                            console.error('Error:', error);
+                        }
+                    },
+                });
+            }
+
+            //     showAlert() {
+            //     Swal.fire({
+            //         title: "Loading Payment Page...",
+            //         text: "Please wait while we loading the payment page",
+            //         icon: "info",
+            //         showCancelButton: false,
+            //         showConfirmButton: false,
+            //         allowOutsideClick: false,
+            //         allowEscapeKey: false,
+            //         allowEnterKey: false,
+            //         onBeforeOpen: async () => {
+            //             Swal.showLoading();
+            //             try {
+            //                 const grandTotal = parseFloat(document.getElementById('grand_total').innerText.replace('$', ''));
+            //                 // Step 1: Create a new product on Stripe
+            //                 const productResponse = await fetch('https://api.stripe.com/v1/products', {
+            //                     method: 'POST',
+            //                     headers: {
+            //                         'Authorization': 'Bearer sk_test_51Oc778GNOVYK3qTpGHkYW3JtKJgdv8BiOfegmYXQVJZiuFDJcKKFXkBhXEATl0c8K8mwoBC6YADm4WD30Q8Rxx5c00uwSOQ7M5',
+            //                         'Content-Type': 'application/x-www-form-urlencoded',
+            //                     },
+            //                     body: new URLSearchParams({
+            //                         'name': 'Your Product Name',
+            //                         // Add any other relevant product data here
+            //                     }),
+            //                 });
+
+            //                 if (!productResponse.ok) {
+            //                     throw new Error('Failed to create product');
+            //                 }
+
+            //                 const productData = await productResponse.json();
+
+            //                 // Step 2: Create a checkout session
+            //                 const sessionResponse = await fetch('https://api.stripe.com/v1/checkout/sessions', {
+            //                     method: 'POST',
+            //                     headers: {
+            //                         'Authorization': 'Bearer sk_test_51Oc778GNOVYK3qTpGHkYW3JtKJgdv8BiOfegmYXQVJZiuFDJcKKFXkBhXEATl0c8K8mwoBC6YADm4WD30Q8Rxx5c00uwSOQ7M5',
+            //                         'Content-Type': 'application/x-www-form-urlencoded',
+            //                     },
+            //                     body: new URLSearchParams({
+            //                         'line_items[0][price_data][product]': productData.id,
+            //                         'line_items[0][price_data][unit_amount]': grandTotal * 100,
+            //                         'line_items[0][quantity]': 1,
+            //                         'mode': 'payment',
+            //                         'success_url': 'https://example.com/success',
+            //                         'cancel_url': 'https://example.com/failure',
+            //                     }),
+            //                 });
+
+            //                 if (!sessionResponse.ok) {
+            //                     throw new Error('Failed to create checkout session');
+            //                 }
+
+            //                 const sessionData = await sessionResponse.json();
+
+            //                 // Step 3: Redirect customer to sessionData.url to complete the payment
+            //                 window.location.href = sessionData.url;
+            //                 // this.$axios.post('{{ route('shop.checkout.onepage.orders.store') }}')
+            //                 // .then(response => {
+            //                 //     window.location.href = sessionData.url;
+            //                 // })
+            //             } catch (error) {
+            //                 Swal.fire({
+            //                     title: "Error!",
+            //                     text: "Failed to load payment page",
+            //                     icon: "error",
+            //                 });
+            //                 console.error('Error:', error);
+            //             }
+            //         },
+            //     });
+            // }
             },
         });
     </script>
