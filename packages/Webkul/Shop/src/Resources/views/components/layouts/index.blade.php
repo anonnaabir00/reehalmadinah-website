@@ -55,6 +55,8 @@
             })(document, window, 'Chatra');
         </script>
         <!-- /Chatra {/literal} -->
+
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/130d6d052964d2a020aa486a4/9fa9acbd668bb5218811a1823.js");</script>
     </head>
 
     <body>
