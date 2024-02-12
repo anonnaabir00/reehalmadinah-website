@@ -23,15 +23,13 @@
                     href="{{ route('shop.home.index') }}"
                     class="flex min-h-[30px]"
                     aria-label="Bagisto "
-                >   
-                <!--
-                    <img
-                        src="{{ bagisto_asset('images/logo.svg') }}"
-                        alt="Bagisto "
-                        width="131"
-                        height="29"
-                    >
-                    -->
+                >
+                
+                <img
+                src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('') }}"
+                class="w-[80px] h-[40px] object-contain"
+                >
+                
                 </a>
             </div>
         </div>
