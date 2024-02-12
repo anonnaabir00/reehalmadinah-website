@@ -10,6 +10,13 @@
     font-display: block;
 }
 
+@media (max-width: 525px){
+    .container {
+      padding: 0 30px;
+      margin-top: 20px;
+  }
+  }
+
 @layer components {
     input {
         @apply outline-none;
