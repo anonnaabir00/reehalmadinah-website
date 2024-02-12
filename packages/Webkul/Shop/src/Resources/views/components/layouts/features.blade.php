@@ -19,14 +19,14 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
       <!-- Category Item 1 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/5/oWkAzSwmpvOgaQybv4knBoLbd6gX8IsXRZK2OjdC.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/8/xbQo0tfRx1i79F8Yog9dGURA6LRU786YGe2bX9lC.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white hover:text-white">Parent Category 1</a></h3>
-            <a href="#" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
+            <h3 class="text-lg md:text-xl font-semibold"><a href="/collection/oud-collection" class="text-white hover:text-white">OUD Collection</a></h3>
+            <a href="/collection/oud-collection" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
       </div>
@@ -35,10 +35,10 @@
       <!-- Category Item 2 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/5/kDUcZwsPs9gT2BTyAM1eyCwrJKkSQVWrdwyQb305.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/8/PKoClGzbwtYMEXhNr4RQ4Gj4tbbMhOV0mOtfVP1h.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white hover:text-white">Parent Category 2</a></h3>
-            <a href="#" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
+            <h3 class="text-lg md:text-xl font-semibold"><a href="/collection/limited-special-edition" class="text-white hover:text-white">Limited Edition</a></h3>
+            <a href="/collection/limited-special-edition" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
       </div>
@@ -47,10 +47,10 @@
       <!-- Category Item 3 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/5/oWkAzSwmpvOgaQybv4knBoLbd6gX8IsXRZK2OjdC.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/8/qpNwbcmXDqt9WAYiwOuojaSJXyeXlKl72eGmkbk8.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white hover:text-white">Parent Category 3</a></h3>
-            <a href="#" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
+            <h3 class="text-lg md:text-xl font-semibold"><a href="/perfumes/best-seller-perfume" class="text-white hover:text-white">Best Seller</a></h3>
+            <a href="/perfumes/best-seller-perfume" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
       </div>
@@ -59,10 +59,10 @@
       <!-- Category Item 4 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-96 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/5/kDUcZwsPs9gT2BTyAM1eyCwrJKkSQVWrdwyQb305.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/8/DdWWPRtXxAltiU12DxIUIuLAkvIvMsVQzVYXw47Z.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="#" class="text-white hover:text-white">Parent Category 4</a></h3>
-            <a href="#" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
+            <h3 class="text-lg md:text-xl font-semibold"><a href="/perfumes/new-arrival" class="text-white hover:text-white">New Arrival</a></h3>
+            <a href="/perfumes/new-arrival" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@
                         <span><i class="fas fa-star text-yellow-400"></i></span>
                     </div>
                     <div class="tp-testimonial-content-3 mt-4 md:mt-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>I'm a long-time Perfume customer, and their latest scent, Reehal Madinah, is phenomenal! The blend of oud and other notes creates a captivating aroma. It's my go-to for any occasion, and I always get compliments. Thanks, Perfume, for this exceptional product! Highly recommend it for anyone seeking a luxurious, long-lasting fragrance.</p>
                     </div>
                     <div class="tp-testimonial-user-wrapper-3 flex items-center mt-4 md:mt-6">
                         <div class="tp-testimonial-user-3 flex items-center">
@@ -106,8 +106,8 @@
                             </svg>
                             </div>
                             <div class="tp-testimonial-user-3-info">
-                                <h3 class="tp-testimonial-user-3-title">John Doe /</h3>
-                                <span class="tp-testimonial-3-designation">CEO, Company</span>
+                                <h3 class="tp-testimonial-user-3-title">Demi Daniels / </h3>
+                                <span class="tp-testimonial-3-designation">Loyal Customer</span>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                         <span><i class="fas fa-star text-yellow-400"></i></span>
                     </div>
                     <div class="tp-testimonial-content-3 mt-4 md:mt-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Perfume's Reehal Madinah is a game-changer! Its divine scent, blending oud and other notes, is simply captivating. I'm constantly showered with compliments when I wear it. Thanks, Perfume, for this exceptional product! I highly recommend it to anyone in search of a luxurious, long-lasting fragrance.</p>
                     </div>
                     <div class="tp-testimonial-user-wrapper-3 flex items-center mt-4 md:mt-6">
                         <div class="tp-testimonial-user-3 flex items-center">
@@ -141,8 +141,8 @@
                             </svg>
                             </div>
                             <div class="tp-testimonial-user-3-info">
-                                <h3 class="tp-testimonial-user-3-title">Jane Doe /</h3>
-                                <span class="tp-testimonial-3-designation">CTO, Company</span>
+                                <h3 class="tp-testimonial-user-3-title">Tyler Clarke / </h3>
+                                <span class="tp-testimonial-3-designation">Loyal Customer</span>
                             </div>
                         </div>
                     </div>
