@@ -17,6 +17,10 @@
   }
   }
 
+  .home-offer{
+    display: none !important;
+  }
+
 @layer components {
     input {
         @apply outline-none;

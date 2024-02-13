@@ -243,7 +243,7 @@
                             const productResponse = await fetch('https://api.stripe.com/v1/products', {
                                 method: 'POST',
                                 headers: {
-                                    'Authorization': 'Bearer sk_test_51Oc778GNOVYK3qTpGHkYW3JtKJgdv8BiOfegmYXQVJZiuFDJcKKFXkBhXEATl0c8K8mwoBC6YADm4WD30Q8Rxx5c00uwSOQ7M5',
+                                    'Authorization': 'Bearer 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',
                                     'Content-Type': 'application/x-www-form-urlencoded',
                                 },
                                 body: new URLSearchParams({

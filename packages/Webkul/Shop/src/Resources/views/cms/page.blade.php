@@ -16,7 +16,7 @@
 
     {{-- Page Content --}}
     <div class="">
-    <div class="p-28 text-center font-bold text-4xl" style="background-image: url('https://reehalmadinah.com/storage/theme/1/HZ3fFPXkI6KnLhP0Zn0AFtL2onJu4osMjvX4tkCm.webp');">
+    <div class="p-28 text-center font-bold text-4xl" style="background-image: url('https://reehalmadinah.com/storage/theme/6/xoxeLIMSoRUEWNpxB8SqgH1uYRAi5laiZgG0HA73.webp');">
         {{ $page->page_title }}
     </div>
     <div class="p-12 container mt-[30px] px-[60px] max-lg:px-[30px] shadow-xl">

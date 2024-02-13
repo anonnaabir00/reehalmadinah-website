@@ -165,6 +165,7 @@
                             <li><a href="/page/delivery-information">Delivery Information</a></li>
                             <li><a href="/page/return-policy">Return Policy</a></li>
                             <li><a href="/page/terms-of-service">Terms of Service</a></li>
+                            <li><a href="/page/faq">FAQa</a></li>
                         </ul>
                     </div>
                 </div>
@@ -172,8 +173,9 @@
                     <h4 class="tp-footer-widget-title">Company</h4>
                     <div class="tp-footer-widget-content">
                         <ul>
-                            <li><a href="/page/private-label-services">Private Label Services</a></li>
+                            <li><a href="/page/private-label-service">Private Label Services</a></li>
                             <li><a href="/page/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/page/our-story">Our Story</a></li>
                             <li><a href="/page/contact-us">Contact Us</a></li>
                         </ul>
                     </div>
@@ -183,7 +185,7 @@
                     <div class="tp-footer-widget-content">
                         <div class="tp-footer-talk mb-4">
                             <span>Got Questions? Call us</span>
-                            <h4 class="mt-4"><a href="tel:670-413-90-762">+670 413 90 762</a></h4>
+                            <h4 class="mt-4"><a href="tel:07487-559272">+44 07487-559272</a></h4>
                         </div>
                         <!-- footer contact start -->
                         <footer-contact/>
