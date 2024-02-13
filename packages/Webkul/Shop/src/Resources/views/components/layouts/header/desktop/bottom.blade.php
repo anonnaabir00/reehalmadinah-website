@@ -243,7 +243,7 @@
                 </div>
             </div>
         </div>
-        <a href="/page/corporate" class="inline-block pb-[25px] uppercase">Corporate</a>
+        <a href="/page/private-label-service" class="inline-block pb-[25px] uppercase">Corporate</a>
     </script>
 
     <script type="module">
