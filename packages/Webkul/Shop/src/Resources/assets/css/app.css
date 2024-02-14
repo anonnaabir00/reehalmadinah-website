@@ -21,6 +21,15 @@
     display: none !important;
   }
 
+  .icon-camera {
+    display: none !important;
+  }
+
+  .mini-cart-remove {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
 @layer components {
     input {
         @apply outline-none;

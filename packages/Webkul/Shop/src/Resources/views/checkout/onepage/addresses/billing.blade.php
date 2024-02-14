@@ -176,11 +176,11 @@
                     <form @submit="handleSubmit($event, handleBillingAddressForm)">
                         <x-shop::form.control-group>
                             <x-shop::form.control-group.label>
-                                @lang('shop::app.checkout.onepage.addresses.billing.company-name')
+                                
                             </x-shop::form.control-group.label>
                 
                             <x-shop::form.control-group.control
-                                type="text"
+                                type="hidden"
                                 name="billing[company_name]"
                                 :label="trans('shop::app.checkout.onepage.addresses.billing.company-name')"
                                 :placeholder="trans('shop::app.checkout.onepage.addresses.billing.company-name')"

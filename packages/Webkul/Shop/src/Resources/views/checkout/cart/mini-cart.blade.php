@@ -118,7 +118,7 @@
                                 <!-- Cart Item Remove Button -->
                                 <button
                                     type="button"
-                                    class="text-[#0A49A7]"
+                                    class="mini-cart-remove text-[#0A49A7]"
                                     @click="removeItem(item.id)"
                                 >
                                     @lang('shop::app.checkout.cart.mini-cart.remove')

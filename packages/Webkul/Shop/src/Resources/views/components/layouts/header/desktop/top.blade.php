@@ -18,6 +18,10 @@
         </x-slot:content>
     </x-shop::dropdown>
 
+    <div>
+        <p class="font-medium">DUBAI - LONDON - ABU DHABI</p>
+    </div>
+
     {{-- Locales Switcher --}}
     <x-shop::dropdown position="bottom-right">
         <x-slot:toggle>
