@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Oregano&family=Roboto:wght@300;400;500;700;900&display=swap");
 @font-face {
     font-family: "velicon";
     src: url("../fonts/velicon.woff?hhi7p1") format("woff");
@@ -28,6 +29,10 @@
   .mini-cart-remove {
     background-color: #fff !important;
     color: #000 !important;
+  }
+
+  .font-dmserif{
+    font-family: var(--tp-ff-heading) !important;
   }
 
 @layer components {
