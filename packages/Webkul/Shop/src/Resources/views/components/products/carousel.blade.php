@@ -1,7 +1,7 @@
 <v-products-carousel
     src="{{ $src }}"
     title="{{ $title }}"
-    navigation-link="{{ $navigationLink ?? '' }}"
+    navigation-link="/shop"
 >
     <x-shop::shimmer.products.carousel :navigation-link="$navigationLink ?? false"></x-shop::shimmer.products.carousel>
 </v-products-carousel>
@@ -37,7 +37,7 @@
                 >
                 </x-shop::products.card>
             </div>
-
+            <!--
             <a
                 :href="navigationLink"
                 class="bg-yellow-600 text-white block w-max mt-[60px] mx-auto py-[11px] px-[43px] text-base text-center"
@@ -45,6 +45,7 @@
             >
                 @lang('shop::app.components.products.carousel.view-all')
             </a>
+            -->
         </div>
 
         <!-- Product Card Listing -->
