@@ -22,7 +22,7 @@
         <link
             rel="icon"
             sizes="16x16"
-            href="{{ core()->getCurrentChannel()->favicon_url ?? bagisto_asset('images/favicon.ico') }}"
+            href="https://reehalmadinah.com/storage/configuration/FTSSlkRvbKUWTqJOk77ez031yQc69taUgNQycUdA.png"
         />
 
         @bagistoVite(['src/Resources/assets/css/app.css', 'src/Resources/assets/css/main.css', 'src/Resources/assets/js/app.js'])
