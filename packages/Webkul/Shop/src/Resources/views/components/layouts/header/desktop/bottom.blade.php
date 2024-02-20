@@ -8,10 +8,10 @@
         <a
             href="{{ route('shop.home.index') }}"
             class="place-self-start -mt-[4px]"
-            aria-label="Bagisto "
+            aria-label="Reeh al Madinah "
         >
             <img
-                src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('') }}"
+                src="https://reehalmadinah.com/storage/theme/10/TeNI3YXPuoVfWOHjexAuLpxzowDAkG1kCnv7BDXS.webp"
                 class="w-[80px] h-[40px] object-contain"
             >
         </a>

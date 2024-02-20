@@ -148,7 +148,7 @@
                 aria-label="Bagisto"
             >
             <img
-                src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('') }}"
+                src="https://reehalmadinah.com/storage/configuration/FO5hK7uvPWTiSLOBuG1TVQH4QvqnrkquUKdc4wbq.png"
                 class="w-[60px] h-[40px] object-contain"
             >
             </a>
