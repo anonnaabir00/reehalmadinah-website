@@ -27,7 +27,7 @@
                         <div class="tp-footer-logo">
                             <img src="https://reehalmadinah.com/storage/channel/1/AczPHTNRLQeELJH4ycApGgsvD5Vkig1RxHcqlStF.png" alt="logo">
                         </div>
-                        <p class="text-base">Luxary Perfume Shop based on UAE & UK </p>
+                        <p class="text-base">Luxury Perfume Shop based in UAE & UK </p>
                         <div class="grid grid-cols-4 gap-6 mt-4 tp-footer-social">
                             <a class="flex justify-center" href="https://facebook.com/reehalmadinah" target="_blank" rel="noopener noreferrer">
                             <div>
@@ -165,7 +165,7 @@
                             <li><a href="/page/delivery-information">Delivery Information</a></li>
                             <li><a href="/page/return-policy">Return Policy</a></li>
                             <li><a href="/page/terms-of-service">Terms of Service</a></li>
-                            <li><a href="/page/faq">FAQa</a></li>
+                            <li><a href="/page/faq">FAQs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     <div class="tp-footer-widget-content">
                         <div class="tp-footer-talk mb-4">
                             <span>Got Questions? Call us</span>
-                            <h4 class="mt-4"><a href="tel:07487-559272">+44 07487-559272</a></h4>
+                            <h4 class="mt-4"><a href="tel:07487-559272">+4407487559272</a></h4>
                         </div>
                         <!-- footer contact start -->
                         <footer-contact/>
@@ -201,7 +201,7 @@
             <div class="tp-footer-bottom-wrapper">
                 <div class="grid md:flex justify-between items-center">
                     <div class="tp-footer-copyright col-span-2 md:col-span-1">
-                        <p>@lang('shop::app.components.layouts.footer.footer-text')</p>
+                        <p>© Copyright 2024, Reeh al Madinah. All rights reserved.</p>
                     </div>
                     <div class="tp-footer-payment col-span-2 md:col-span-1 text-center md:text-right">
                         <div class="flex">

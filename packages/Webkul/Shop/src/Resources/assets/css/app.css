@@ -11,6 +11,14 @@
     font-display: block;
 }
 
+.max-md\:w-\[110px\]{
+   width: 100% !important; 
+}
+
+.max-md\:border-0{
+    border-width: 1px !important;
+}
+
 @media (max-width: 525px){
     .container {
       padding: 0 30px;

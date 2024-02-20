@@ -5,13 +5,13 @@
     </div>
 </v-carousel>
 
-<section class="pt-20">
+<section class="pt-10">
   <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-1 items-center">
-      <div class="md:pr-8 lg:pr-16 xl:pr-20 mb-6 md:mb-0">
-        <div class="mb-6 text-center">
+      <div class="md:pr-8 lg:pr-16 xl:pr-20 mb-4 md:mb-0">
+        <div class="mb-2 text-center">
           <span class="text-xs md:text-sm tracking-wider text-gray-600">For Men & Women</span>
-          <h3 class="mt-4 text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Premium Perfumes</h3>
+          <h3 class="mt-4 text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Reeh al Madinah Exclusive</h3>
         </div>
       </div>
       
