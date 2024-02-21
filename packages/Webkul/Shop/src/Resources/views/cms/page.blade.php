@@ -16,7 +16,7 @@
 
     {{-- Page Content --}}
     <div class="">
-    <div class="p-32 text-center font-bold text-4xl bg-no-repeat bg-center bg-cover" style="background-image: url('https://reehalmadinah.com/storage/theme/10/AEArQAP2Soc4CmcQ1ucr3SuMvbQnnLS6LoIyYEDf.webp');">
+    <div class="p-32 text-center font-bold text-4xl text-white bg-no-repeat bg-center bg-cover" style="background-image: url('https://reehalmadinah.com/storage/theme/10/6oRNvoIHZxTwdTvwJkffV5WgHwQHhgIl1V02cbho.webp');">
         {{ $page->page_title }}
     </div>
     <div class="p-12 container mt-[30px] px-[60px] max-lg:px-[30px] shadow-xl">

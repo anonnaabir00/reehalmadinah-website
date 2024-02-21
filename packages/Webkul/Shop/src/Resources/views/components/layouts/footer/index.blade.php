@@ -185,7 +185,7 @@
                     <div class="tp-footer-widget-content">
                         <div class="tp-footer-talk mb-4">
                             <span>Got Questions? Call us</span>
-                            <h4 class="mt-4"><a href="tel:07487-559272">+4407487559272</a></h4>
+                            <p class="mt-4 text-xl font-semibold"><a href="tel:07487-559272">+4407487559272</a></p>
                         </div>
                         <!-- footer contact start -->
                         <footer-contact/>
