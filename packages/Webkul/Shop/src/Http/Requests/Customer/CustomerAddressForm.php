@@ -90,7 +90,7 @@ class CustomerAddressForm extends FormRequest
             "{$addressType}.city"       => ['required'],
             "{$addressType}.country"    => [new AlphaNumericSpace],
             "{$addressType}.state"      => [new AlphaNumericSpace],
-            "{$addressType}.postcode"   => ['numeric'],
+            "{$addressType}.postcode"   => ['string'],
             "{$addressType}.phone"      => ['required', new PhoneNumber],
         ]);
     }
