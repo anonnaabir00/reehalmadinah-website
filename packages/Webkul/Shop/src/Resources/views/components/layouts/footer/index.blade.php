@@ -29,41 +29,8 @@
                         </div>
                         <p class="text-base">Luxury Perfume Shop based in UAE & UK </p>
                         <div class="grid grid-cols-4 gap-6 mt-4 tp-footer-social">
-                            <a class="flex justify-center" href="https://facebook.com/reehalmadinah" target="_blank" rel="noopener noreferrer">
-                            <div>
-                            <svg id='Facebook_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
-                            <g transform="matrix(0.58 0 0 0.58 16 16)" >
-                            <g style="" >
-                            <g transform="matrix(1 0 0 1 0 0)" >
-                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(3,155,229); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 5 C 13.506589753214925 5 5 13.506589753214925 5 24 C 5 34.493410246785075 13.506589753214925 43 24 43 C 34.493410246785075 43 43 34.493410246785075 43 24 C 43 13.506589753214925 34.493410246785075 5 24 5 Z" stroke-linecap="round" />
-                            </g>
-                            <g transform="matrix(1 0 0 1 0.38 3.9)" >
-                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24.38, -27.9)" d="M 26.572 29.036 L 31.488999999999997 29.036 L 32.260999999999996 24.041 L 26.570999999999994 24.041 L 26.570999999999994 21.311 C 26.570999999999994 19.236 27.248999999999995 17.396 29.189999999999994 17.396 L 32.309 17.396 L 32.309 13.037 C 31.760999999999996 12.963000000000001 30.601999999999997 12.801 28.412 12.801 C 23.839 12.801 21.158 15.216000000000001 21.158 20.718 L 21.158 24.041 L 16.457 24.041 L 16.457 29.036 L 21.158 29.036 L 21.158 42.765 C 22.089 42.905 23.032 43 24 43 C 24.875 43 25.729 42.92 26.572 42.806 L 26.572 29.036 z" stroke-linecap="round" />
-                            </g>
-                            </g>
-                            </g>
-                            </svg>
-                            </div>
-                            </a>
-                            
-                            <a class="flex justify-center" href="https://twitter.com/reehalmadinah" target="_blank" rel="noopener noreferrer">
-                            <div>
-                            <svg id='Twitter_Circled_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
-                            <g transform="matrix(0.58 0 0 0.58 16 16)" >
-                            <g style="" >
-                            <g transform="matrix(1 0 0 1 0 0)" >
-                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(3,169,244); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 4 C 12.954305003384132 4 4 12.954305003384132 4 24 C 4 35.045694996615865 12.954305003384132 44 24 44 C 35.045694996615865 44 44 35.045694996615865 44 24 C 44 12.954305003384132 35.045694996615865 4 24 4 Z" stroke-linecap="round" />
-                            </g>
-                            <g transform="matrix(1 0 0 1 0 0.5)" >
-                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24.5)" d="M 36 17.12 C 35.118 17.511000000000003 34.001 17.878 33 18 C 34.018 17.396 35.633 16.137999999999998 36 15 C 35.049 15.559 33.329 16.156 32.207 16.372 C 31.311 15.422 30.033 15 28.617 15 C 25.897 15 24 17.305 24 20 L 24 22 C 20 22 16.1 18.953 13.673 16 C 13.246 16.721 13.006 17.565 13.006 18.457 C 13.006 20.276 14.677 22.122 16 23 C 15.193 22.975 13.665 22.359 13 22 C 13 22.016 13 22.036 13 22.057 C 13 24.424 14.661 26.031 16.912 26.479 C 16.501 26.592 16 27 14.072 27 C 14.697999999999999 28.935 17.845 29.958 20 30 C 18.314 31.307 15.308 32 13 32 C 12.600999999999999 32 12.385 32.022 12 31.977 C 14.178 33.357 17.22 34 20 34 C 29.057000000000002 34 34 27.082 34 20.630000000000003 C 34 20.418000000000003 33.993 19.708000000000002 33.982 19.500000000000004 C 34.95 18.818 35.342 18.104 36 17.12" stroke-linecap="round" />
-                            </g>
-                            </g>
-                            </g>
-                            </svg>
-                            </div>
-                            </a>
-                            
-                            <a class="flex justify-center" href="https://www.instagram.com/reehalmadinah/" target="_blank" rel="noopener noreferrer">
+
+                        <a class="flex justify-center" href="https://www.instagram.com/reehalmadinah/" target="_blank" rel="noopener noreferrer">
                             <div>
                             <svg id='Instagram_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
                             <g transform="matrix(0.58 0 0 0.58 16 16)" >
@@ -131,6 +98,23 @@
                             </div>
                             </a>
 
+                            <a class="flex justify-center" href="https://facebook.com/reehalmadinah" target="_blank" rel="noopener noreferrer">
+                            <div>
+                            <svg id='Facebook_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
+                            <g transform="matrix(0.58 0 0 0.58 16 16)" >
+                            <g style="" >
+                            <g transform="matrix(1 0 0 1 0 0)" >
+                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(3,155,229); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 5 C 13.506589753214925 5 5 13.506589753214925 5 24 C 5 34.493410246785075 13.506589753214925 43 24 43 C 34.493410246785075 43 43 34.493410246785075 43 24 C 43 13.506589753214925 34.493410246785075 5 24 5 Z" stroke-linecap="round" />
+                            </g>
+                            <g transform="matrix(1 0 0 1 0.38 3.9)" >
+                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24.38, -27.9)" d="M 26.572 29.036 L 31.488999999999997 29.036 L 32.260999999999996 24.041 L 26.570999999999994 24.041 L 26.570999999999994 21.311 C 26.570999999999994 19.236 27.248999999999995 17.396 29.189999999999994 17.396 L 32.309 17.396 L 32.309 13.037 C 31.760999999999996 12.963000000000001 30.601999999999997 12.801 28.412 12.801 C 23.839 12.801 21.158 15.216000000000001 21.158 20.718 L 21.158 24.041 L 16.457 24.041 L 16.457 29.036 L 21.158 29.036 L 21.158 42.765 C 22.089 42.905 23.032 43 24 43 C 24.875 43 25.729 42.92 26.572 42.806 L 26.572 29.036 z" stroke-linecap="round" />
+                            </g>
+                            </g>
+                            </g>
+                            </svg>
+                            </div>
+                            </a>
+
                             <a class="flex justify-center" href="https://www.tiktok.com/@reeh_al_madinah" target="_blank" rel="noopener noreferrer">
                             <div>
                             <svg id='TikTok_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
@@ -147,6 +131,23 @@
                             </g>
                             <g transform="matrix(1 0 0 1 -0.59 -1.12)" >
                             <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(129,212,250); fill-rule: evenodd; opacity: 1;" transform=" translate(-23.41, -22.88)" d="M 33.626 18.262 L 33.626 17.408 C 32.576 17.41 31.548 17.116 30.656999999999996 16.560000000000002 C 31.445 17.423 32.483 18.018 33.626 18.262 z M 28.095 12.772 C 28.067999999999998 12.619 28.048 12.466000000000001 28.034 12.311 L 28.034 11.795 L 23.997999999999998 11.795 L 23.997999999999998 27.814 C 23.991999999999997 29.681 22.474999999999998 31.193 20.604999999999997 31.193 C 20.055999999999997 31.193 19.537999999999997 31.063000000000002 19.078999999999997 30.831000000000003 C 19.698999999999998 31.644000000000002 20.677999999999997 32.169000000000004 21.779999999999998 32.169000000000004 C 23.65 32.169000000000004 25.165999999999997 30.657000000000004 25.173 28.790000000000003 L 25.173 12.772 L 28.095 12.772 z M 21.635 21.38 L 21.635 20.471 C 21.298000000000002 20.425 20.958000000000002 20.402 20.617 20.402 C 16.52 20.402 13.200000000000001 23.721 13.200000000000001 27.815 C 13.200000000000001 30.382 14.505 32.644 16.488 33.974000000000004 C 15.18 32.638000000000005 14.373999999999999 30.809000000000005 14.373999999999999 28.791000000000004 C 14.374 24.749 17.611 21.463 21.635 21.38 z" stroke-linecap="round" />
+                            </g>
+                            </g>
+                            </g>
+                            </svg>
+                            </div>
+                            </a>
+                            
+                            <a class="flex justify-center" href="https://twitter.com/reehalmadinah" target="_blank" rel="noopener noreferrer">
+                            <div>
+                            <svg id='Twitter_Circled_32' width='38' height='38' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='32' height='32' stroke='none' fill='#000000' opacity='0'/>
+                            <g transform="matrix(0.58 0 0 0.58 16 16)" >
+                            <g style="" >
+                            <g transform="matrix(1 0 0 1 0 0)" >
+                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(3,169,244); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24)" d="M 24 4 C 12.954305003384132 4 4 12.954305003384132 4 24 C 4 35.045694996615865 12.954305003384132 44 24 44 C 35.045694996615865 44 44 35.045694996615865 44 24 C 44 12.954305003384132 35.045694996615865 4 24 4 Z" stroke-linecap="round" />
+                            </g>
+                            <g transform="matrix(1 0 0 1 0 0.5)" >
+                            <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-24, -24.5)" d="M 36 17.12 C 35.118 17.511000000000003 34.001 17.878 33 18 C 34.018 17.396 35.633 16.137999999999998 36 15 C 35.049 15.559 33.329 16.156 32.207 16.372 C 31.311 15.422 30.033 15 28.617 15 C 25.897 15 24 17.305 24 20 L 24 22 C 20 22 16.1 18.953 13.673 16 C 13.246 16.721 13.006 17.565 13.006 18.457 C 13.006 20.276 14.677 22.122 16 23 C 15.193 22.975 13.665 22.359 13 22 C 13 22.016 13 22.036 13 22.057 C 13 24.424 14.661 26.031 16.912 26.479 C 16.501 26.592 16 27 14.072 27 C 14.697999999999999 28.935 17.845 29.958 20 30 C 18.314 31.307 15.308 32 13 32 C 12.600999999999999 32 12.385 32.022 12 31.977 C 14.178 33.357 17.22 34 20 34 C 29.057000000000002 34 34 27.082 34 20.630000000000003 C 34 20.418000000000003 33.993 19.708000000000002 33.982 19.500000000000004 C 34.95 18.818 35.342 18.104 36 17.12" stroke-linecap="round" />
                             </g>
                             </g>
                             </g>

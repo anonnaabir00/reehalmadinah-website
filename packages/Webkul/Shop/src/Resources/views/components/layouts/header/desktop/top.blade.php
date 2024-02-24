@@ -18,7 +18,8 @@
         </x-slot:content>
     </x-shop::dropdown>
 
-    <div>
+    <div class="text-center">
+        <p class="font-medium">Luxury Oud and Perfume</p>
         <p class="font-medium">DUBAI - LONDON - ABU DHABI</p>
     </div>
 
