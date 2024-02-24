@@ -460,8 +460,8 @@ return [
         'view' => [
             'type' => [
                 'configurable' => [
-                    'select-options'       => 'Please select an option',
-                    'select-above-options' => 'Please select above options',
+                    'select-options'       => 'option',
+                    'select-above-options' => 'Select Bottle Size',
                 ],
 
                 'bundle' => [
@@ -533,7 +533,7 @@ return [
         ],
 
         'view' => [
-            'empty'     => 'No products available in this category',
+            'empty'     => 'Coming Soon',
             'load-more' => 'Load More',
         ],
     ],
