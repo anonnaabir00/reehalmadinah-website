@@ -27,7 +27,7 @@
                         <div class="tp-footer-logo w-24">
                             <img src="https://reehalmadinah.com/storage/theme/10/TeNI3YXPuoVfWOHjexAuLpxzowDAkG1kCnv7BDXS.webp" alt="logo">
                         </div>
-                        <p class="text-base">Luxury Perfume Shop based in UAE & UK </p>
+                        <p class="text-base">Luxury Perfume Shop based in Dubai, London & Abu Dhabi</p>
                         <div class="grid grid-cols-4 gap-6 mt-4 tp-footer-social">
 
                         <a class="flex justify-center" href="https://www.instagram.com/reehalmadinah/" target="_blank" rel="noopener noreferrer">
@@ -186,7 +186,7 @@
                     <div class="tp-footer-widget-content">
                         <div class="tp-footer-talk mb-4">
                             <span>Got Questions? Call us</span>
-                            <p class="mt-4 text-xl font-semibold"><a href="tel:07487-559272">+4407487559272</a></p>
+                            <p class="mt-4 text-base font-semibold"><a href="tel:07487-559272">+4407487559272</a></p>
                         </div>
                         <!-- footer contact start -->
                         <footer-contact/>

@@ -19,8 +19,7 @@
     </x-shop::dropdown>
 
     <div class="text-center">
-        <p class="font-medium">Luxury Oud and Perfume</p>
-        <p class="font-medium">DUBAI - LONDON - ABU DHABI</p>
+        <p class="font-medium top-text">Luxury Oud and Perfume</p>
     </div>
 
     {{-- Locales Switcher --}}

@@ -148,8 +148,8 @@
                 aria-label="Bagisto"
             >
             <img
-                src="https://reehalmadinah.com/storage/configuration/FO5hK7uvPWTiSLOBuG1TVQH4QvqnrkquUKdc4wbq.png"
-                class="w-[60px] h-[40px] object-contain"
+                src="https://reehalmadinah.com/storage/theme/10/JyApuyFacs4VkKG3wBYLvWAalDerfbPpxtsqPBZR.webp"
+                class="w-[160px] h-[40px] object-cover"
             >
             </a>
         </div>

@@ -22,7 +22,7 @@
         <div class="group relative overflow-hidden rounded-lg">
           <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/10/1hiPo04BPGUAUU2bQdeFCHxwD7VWY0fHsU6YPFvg.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="/perfumes/mens-perfume" class="text-white hover:text-white">Mens's Perfume</a></h3>
+            <h3 class="text-base md:text-xl font-semibold"><a href="/perfumes/mens-perfume" class="text-white hover:text-white p-1">Mens's Perfume</a></h3>
             <a href="/perfumes/mens-perfume" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
@@ -34,7 +34,7 @@
         <div class="group relative overflow-hidden rounded-lg">
           <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/10/fHPACAahTU3FTJCR8AsopVVbnrOQriF8rZWXdljc.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
-            <h3 class="text-lg md:text-xl font-semibold"><a href="/perfumes/womens-perfume" class="text-white hover:text-white">Women's Perfume</a></h3>
+            <h3 class="text-base md:text-xl font-semibold text-center"><a href="/perfumes/womens-perfume" class="text-white hover:text-white p-1">Women's Perfume</a></h3>
             <a href="/perfumes/womens-perfume" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
           </div>
         </div>
