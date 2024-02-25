@@ -11,8 +11,8 @@
             aria-label="Reeh al Madinah "
         >
             <img
-                src="https://reehalmadinah.com/storage/theme/10/TeNI3YXPuoVfWOHjexAuLpxzowDAkG1kCnv7BDXS.webp"
-                class="w-[80px] h-[40px] object-contain"
+                src="https://i.postimg.cc/RZVtGKHf/Logo-nnew.png"
+                class="w-[150px] h-[40px] object-contain"
             >
         </a>
 
