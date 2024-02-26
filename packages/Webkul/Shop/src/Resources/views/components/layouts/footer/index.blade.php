@@ -24,8 +24,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-16">
                 <div class="tp-footer-widget footer-col-1">
                     <div class="tp-footer-widget-content">
-                        <div class="tp-footer-logo w-24">
-                            <img src="https://reehalmadinah.com/storage/theme/10/TeNI3YXPuoVfWOHjexAuLpxzowDAkG1kCnv7BDXS.webp" alt="logo">
+                        <div class="tp-footer-logo w-35">
+                            <img src="https://reehalmadinah.com/storage/theme/10/JyApuyFacs4VkKG3wBYLvWAalDerfbPpxtsqPBZR.webp" alt="logo">
                         </div>
                         <p class="text-base">Luxury Perfume Shop based in Dubai, London & Abu Dhabi</p>
                         <div class="grid grid-cols-4 gap-6 mt-4 tp-footer-social">

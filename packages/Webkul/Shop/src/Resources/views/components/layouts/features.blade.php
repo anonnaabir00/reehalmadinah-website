@@ -23,7 +23,7 @@
       <!-- Category Item 1 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/8/xbQo0tfRx1i79F8Yog9dGURA6LRU786YGe2bX9lC.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/10/fyVuNYWj6twxC9ayKoXo2BlpNk6qrZ9vt5uFHznP.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
             <h3 class="text-lg md:text-xl font-semibold"><a href="/collection/oud-collection" class="text-white hover:text-white">OUD Collection</a></h3>
             <a href="/collection/oud-collection" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
@@ -47,7 +47,7 @@
       <!-- Category Item 3 -->
       <div class="col-span-1 md:col-span-1 lg:col-span-1">
         <div class="group relative overflow-hidden rounded-lg">
-          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/10/QQeekqaprSd4tSy8SWXsUtTlkwHuZmRPxpOwpT7F.webp')"></div>
+          <div class="bg-cover bg-center h-48 md:h-96 transition duration-300 transform group-hover:scale-105" style="background-image: url('https://reehalmadinah.com/storage/theme/10/vqcYLw8Vb6C0n0d5HkRVImUZAniX972x8Lb65JmF.webp')"></div>
           <div class="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
             <h3 class="text-lg md:text-xl font-semibold"><a href="/perfumes/best-seller-perfume" class="text-white hover:text-white">Best Seller</a></h3>
             <a href="/perfumes/best-seller-perfume" class="inline-block mt-4 py-1 px-4 bg-yellow-600 text-white font-semibold transition duration-300 hover:bg-yellow-700">View Now</a>
