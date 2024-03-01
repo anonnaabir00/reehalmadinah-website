@@ -358,22 +358,22 @@
                                     </li>
                                 </ul>
 
-                                <span
+                                <!-- <span
                                     class="ml-2"
                                     v-else
                                 >
                                     @lang('No category found.')
-                                </span>
+                                </span> -->
                             </div>
                         </li>
                     </ul>
 
-                    <span
+                    <!-- <span
                         class="ml-2"
                         v-else
                     >
                         @lang('No category found.')
-                    </span>
+                    </span> -->
                 </div>
             </template>
         </div>
