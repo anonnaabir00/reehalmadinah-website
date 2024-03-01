@@ -205,6 +205,36 @@
                             @endif
                         @endforeach
                     </p>
+                    <div class="border border-red-400 p-8">
+                    <h4 class="text-xl font-bold">How to apply Perfume:</h4>
+                    <p class="text-base">Using perfume safely is essential to ensure a pleasant experience and avoid any potential adverse reactions. Here are some guidelines for users:</p>
+                    <ul class="list-decimal text-base">
+                        <li>Apply to Pulse Points: Apply perfume to pulse points such as the wrists, neck, behind the ears, and inside of elbows. These areas emit heat, enhancing the scent of the perfume.</li>
+                        <li> Avoid Over application: A little goes a long way with perfume. Avoid applying too much as it can overwhelm those around you and may cause discomfort.</li>
+                        <li>Do Not Rub: After applying perfume, resist the urge to rub it into the skin. This can alter the scent and may cause the fragrance to fade more quickly.</li>
+                        <li>Test Before Wearing: Before wearing a new perfume, it's a good idea to do a patch test on a small area of skin to check for any allergic reactions or sensitivities.</li>
+                        <li>Keep Away from Eyes and Mucous Membranes: Avoid spraying perfume directly onto the face or near the eyes. If perfume comes into contact with the eyes, rinse thoroughly with water.</li>
+                        <li>Store Properly: Store perfume bottles in a cool, dry place away from direct sunlight and extreme temperatures. Exposure to heat and light can degrade the fragrance.</li>
+                        <li>Consider Sensitivities: Be mindful of others who may have sensitivities or allergies to strong scents. Avoid wearing perfume in enclosed spaces or around individuals with known sensitivities.</li>
+                    </ul>
+                    <p>By following these guidelines, you can enjoy your perfume safely while ensuring a pleasant experience for yourself and those around you.</p>
+                    </div>
+
+                    <div class="border border-red-400 p-8">
+                    <h4 class="text-xl font-bold">How to apply Perfume Oil:</h4>
+                    <p class="text-base">Using perfume oil safely is essential to ensure a pleasant and enjoyable experience. Here are some guidelines for users:</p>
+                    <ul class="list-decimal text-base">
+                        <li>Patch Test: Before applying perfume oil to your skin, it's wise to perform a patch test. Apply a small amount of the oil to a discreet area of your skin, such as the inner wrist or elbow, and wait for 24 hours to check for any allergic reactions or skin irritation.</li>
+                        <li>Application: Apply perfume oil to pulse points on your body, such as the wrists, neck, and behind the ears. These areas emit heat, which helps to enhance the fragrance and ensure it lasts longer. Avoid applying perfume oil to sensitive areas of the skin, such as broken or irritated skin.</li>
+                        <li>Layering: For a longer-lasting scent, consider layering perfume oil with other products from the same fragrance line, such as body lotion or shower gel. This helps to create a multi-dimensional scent that lingers throughout the day.</li>
+                        <li>Storage: Store perfume oil in a cool, dry place away from direct sunlight and heat. Exposure to heat and light can degrade the quality of the oil and alter its fragrance. Keep the bottle tightly sealed when not in use to prevent evaporation and maintain its potency.</li>
+                        <li>Avoid Contact with Clothing: Be cautious when applying perfume oil to avoid contact with clothing, as some oils may stain fabrics. It's best to apply perfume oil directly to the skin and allow it to dry before dressing.</li>
+                        <li>Discontinue Use if Irritation Occurs: If you experience any redness, itching, or irritation after applying perfume oil, discontinue use immediately and wash the affected area with mild soap and water. Consult a dermatologist if the symptoms persist.</li>
+                    </ul>
+                    <p class="text-base">By following these guidelines, you can enjoy your perfume safely while ensuring a pleasant experience for yourself and those around you.</p>
+                    </div>
+                    
+                    </div>
                 </div>
             </x-slot:content>
         </x-shop::accordion>
