@@ -27,7 +27,7 @@
                         <div class="tp-footer-logo w-35">
                             <img src="https://reehalmadinah.com/storage/theme/10/JyApuyFacs4VkKG3wBYLvWAalDerfbPpxtsqPBZR.webp" alt="logo">
                         </div>
-                        <p class="text-base">Luxury Oud and Perfume <br>Dubai London Adu Dhabi</p>
+                        <p class="text-sm">Luxury Oud and Perfume <br>Dubai London Adu Dhabi</p>
                         <div class="grid grid-cols-4 gap-6 mt-4 tp-footer-social">
 
                         <a class="flex justify-center" href="https://www.instagram.com/reehalmadinah/" target="_blank" rel="noopener noreferrer">

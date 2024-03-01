@@ -12,7 +12,7 @@
         >
             <img
                 src="https://reehalmadinah.com/storage/theme/10/JyApuyFacs4VkKG3wBYLvWAalDerfbPpxtsqPBZR.webp"
-                class="website-logo h-[40px] object-cover"
+                class="website-logo h-[60px] object-contain"
             >
         </a>
 
