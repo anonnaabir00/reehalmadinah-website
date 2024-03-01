@@ -5,7 +5,7 @@
     </div>
 </v-carousel>
 
-<section class="pt-2 md:pt-12">
+<section class="pt-2 md:pt-16">
   <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-1 items-center">
       <div class="md:pr-8 lg:pr-16 xl:pr-20 mb-4 md:mb-0">
