@@ -223,6 +223,7 @@ return [
         Webkul\Tax\Providers\TaxServiceProvider::class,
         Webkul\Theme\Providers\ThemeServiceProvider::class,
         Webkul\User\Providers\UserServiceProvider::class,
+        Reehal\FlatRate2\Providers\FlatRate2ServiceProvider::class,
     ])->toArray(),
 
     /*
