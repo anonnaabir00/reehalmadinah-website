@@ -25,9 +25,10 @@
                     aria-label="Bagisto "
                 >
                 
+                
                 <img
-                src="{{ core()->getCurrentChannel()->logo_url ?? bagisto_asset('') }}"
-                class="w-[80px] h-[40px] object-contain"
+                src="https://reehalmadinah.com/storage/theme/10/JyApuyFacs4VkKG3wBYLvWAalDerfbPpxtsqPBZR.webp"
+                class="website-logo h-[60px] object-contain"
                 >
                 
                 </a>

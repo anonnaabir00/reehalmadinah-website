@@ -131,7 +131,7 @@
                         <span><i class="fas fa-star text-yellow-400"></i></span>
                     </div>
                     <div class="tp-testimonial-content-3 mt-4 md:mt-6">
-                        <p>As a loyal customer of Reeh al Madinah, I must say their newest fragrance, Gentlemen, is absolutely outstanding! The combination of oud and other aromatic notes produces an irresistible scent. It has become my favourite choice for every occasion, and I consistently receive compliments whenever I wear it. Huge thanks to Reeh al Madinah for delivering such an exceptional product! I wholeheartedly suggest it to anyone searching for a luxurious and enduring fragrance.</p>
+                        <p>Reeh al Madinah's newest fragrance, Gentlemen, is outstanding! The combination of oud and aromatic notes creates an irresistible scent. It's my favourite choice for every occasion, consistently earning compliments. Thanks to Reeh al Madinah for delivering such an exceptional product! I highly recommend it to anyone seeking a luxurious fragrance.</p>
                     </div>
                     <div class="tp-testimonial-user-wrapper-3 flex items-center mt-4 md:mt-6">
                         <div class="tp-testimonial-user-3 flex items-center">
