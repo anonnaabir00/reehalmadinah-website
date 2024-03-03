@@ -90,7 +90,8 @@
             "Webkul\\Tax\\": "packages/Webkul/Tax/src",
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
-            "Reehal\\FlatRate2\\": "packages/Reehal/FlatRate2/src"
+            "Reehal\\FlatRate2\\": "packages/Reehal/FlatRate2/src",
+            "Reehal\\FreeShipping\\": "packages/Reehal/FreeShipping/src"
         }
     },
     "autoload-dev": {
