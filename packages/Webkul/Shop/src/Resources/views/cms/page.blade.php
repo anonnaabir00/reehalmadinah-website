@@ -15,8 +15,8 @@
     </x-slot>
 
     {{-- Page Content --}}
-    <div class="">
-    <div class="p-32 text-center font-bold text-4xl text-white bg-no-repeat bg-center bg-cover" style="background-image: url('https://reehalmadinah.com/storage/theme/10/E7T82Uza58OKPyBMW3qkMFfbGfmQMCGPlZS9hDEA.webp');">
+    <div class="w-full">
+    <div class="p-32 text-center font-bold text-4xl text-white bg-no-repeat bg-center bg-cover" style="background-image: url('https://amardeen.s3.ap-southeast-1.amazonaws.com/cms_header.png');">
         {{ $page->page_title }}
     </div>
     <div class="p-12 container mt-[30px] px-[60px] max-lg:px-[30px] shadow-xl">

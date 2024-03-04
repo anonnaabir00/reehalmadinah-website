@@ -91,6 +91,8 @@
             "Webkul\\Theme\\": "packages/Webkul/Theme/src",
             "Webkul\\User\\": "packages/Webkul/User/src",
             "Reehal\\FlatRate2\\": "packages/Reehal/FlatRate2/src",
+            "Reehal\\FlatShipping3\\": "packages/Reehal/FlatShipping3/src",
+            "Reehal\\FlatShipping4\\": "packages/Reehal/FlatShipping4/src",
             "Reehal\\FreeShipping\\": "packages/Reehal/FreeShipping/src"
         }
     },

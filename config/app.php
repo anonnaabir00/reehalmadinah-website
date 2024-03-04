@@ -224,6 +224,8 @@ return [
         Webkul\Theme\Providers\ThemeServiceProvider::class,
         Webkul\User\Providers\UserServiceProvider::class,
         Reehal\FlatRate2\Providers\FlatRate2ServiceProvider::class,
+        Reehal\FlatShipping3\Providers\FlatShipping3ServiceProvider::class,
+        Reehal\FlatShipping4\Providers\FlatShipping4ServiceProvider::class,
         Reehal\FreeShipping\Providers\FreeShippingServiceProvider::class,
     ])->toArray(),
 
