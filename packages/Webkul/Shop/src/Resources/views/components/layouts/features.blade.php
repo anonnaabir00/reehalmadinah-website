@@ -141,7 +141,7 @@
                             </svg>
                             </div>
                             <div class="tp-testimonial-user-3-info">
-                                <h3 class="tp-testimonial-user-3-title">Tyler Clarke / </h3>
+                                <h3 class="tp-testimonial-user-3-title">Tawfiq Mahmud / </h3>
                                 <span class="tp-testimonial-3-designation">Loyal Customer</span>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                 </div>
                 <div class="tp-feature-content-2">
                     <h3 class="tp-feature-title-2">Free Delivery</h3>
-                    <p class="mt-3">Orders from all items</p>
+                    <p class="mt-3">Receive free delivery during this Ramadan.</p>
                 </div>
             </div>
             <!-- Repeat the above structure for each column -->
@@ -205,7 +205,7 @@
                 </div>
                 <div class="tp-feature-content-2">
                     <h3 class="tp-feature-title-2">Easy Payment</h3>
-                    <p class="mt-3">Pay within a click</p>
+                    <p class="mt-3">Purchase with just one click.</p>
                 </div>
             </div>
             <div class="tp-feature-item-2 flex items-start border border-gray-200 p-8">
@@ -220,7 +220,7 @@
                 </div>
                 <div class="tp-feature-content-2">
                     <h3 class="tp-feature-title-2">Support 24/7</h3>
-                    <p class="mt-3">Contact us 24 hours a day</p>
+                    <p class="mt-3">Round-the-clock customer assistance</p>
                 </div>
             </div>
         </div>
