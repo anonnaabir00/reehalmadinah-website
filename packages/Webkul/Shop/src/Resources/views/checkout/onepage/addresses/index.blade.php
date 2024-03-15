@@ -259,6 +259,36 @@
                         .catch(error => {     
                             var stateError = error.response.data.message;
 
+                            if (stateError.includes("billing.first")) {
+                                Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "The First Name can only accept alpha, numeric and spaces. No special character.",
+                                footer: 'Please Reload this page and enter proper details',
+                                showCancelButton: false,
+                                confirmButtonText: "OK",
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload();
+                                }
+                            });
+                            }
+
+                            if (stateError.includes("billing.last")) {
+                                Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "The Last Name can only accept alpha, numeric and spaces. No special character.",
+                                footer: 'Please Reload this page and enter proper details',
+                                showCancelButton: false,
+                                confirmButtonText: "OK",
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload();
+                                }
+                            });
+                            }
+
                             if (stateError.includes("billing.state")) {
                                 Swal.fire({
                                 icon: "error",
